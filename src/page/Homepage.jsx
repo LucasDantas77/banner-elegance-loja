@@ -1,19 +1,12 @@
-import { ContainerMain, UlButtons } from "./styleHome";
+import ListButons from "../components/listButtons";
+import { MainPage } from "./styleHome";
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
-    <ContainerMain>
-      <UlButtons>
-        <li>
-          <button>pinterest</button>
-        </li>
-        <li>
-          <button>zipa zap zum</button>
-        </li>
-        <li>
-          <button>insta</button>
-        </li>
-      </UlButtons>
-    </ContainerMain>
+    <MainPage>
+      <ListButons />
+    </MainPage>
   );
 };
+
+export default HomePage;
