@@ -46,7 +46,7 @@ export const LiBtns = styled.li`
       background-color: #000;
       color: #fff;
 
-      a{
+      a {
         color: #fff;
       }
     }
@@ -56,7 +56,8 @@ export const LiBtns = styled.li`
       letter-spacing: 2px;
       text-decoration: none;
       color: #000;
-      width: 200px;
+      width: 50%;
+      max-width: 240px;
       padding: 10px;
     }
 
