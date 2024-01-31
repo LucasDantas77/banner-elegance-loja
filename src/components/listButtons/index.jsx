@@ -1,29 +1,30 @@
-import LogoPinterest from "../../assets/logo-pinterest-removebg-preview.png";
-import LogoWhats from "../../assets/whats-logo-removebg-preview.png";
-import LogoInsta from "../../assets/instalog-removebg-preview.png";
-import { LiBtns, TextInsta, TextPinterest, TextWhats, UlBtns } from "./style";
+import { LiBtns, UlBtns } from "./style";
+import { BsStars } from "react-icons/bs";
 
 const ListButons = () => {
   return (
     <UlBtns>
-      <img src="" alt="" />
-      <h2>Nos siga pelas redes abaixo!</h2>
       <LiBtns>
-        <TextPinterest>Pinterest</TextPinterest>
         <button>
-          <img src={LogoPinterest} alt="logo do pinterest" />
+          <BsStars />
+          <a href="https://www.pinterest.com/elegancebijoux48/">Pinterest</a>
+          <BsStars />
         </button>
       </LiBtns>
       <LiBtns>
-        <TextWhats>Whatsapp</TextWhats>
         <button>
-          <img src={LogoWhats} alt="Logo do whatsapp" />
+          <BsStars />
+          <a href="https://wa.me/message/SGX7I46A6QVPG1">Whatsapp</a>
+          <BsStars />
         </button>
       </LiBtns>
       <LiBtns>
-        <TextInsta>Instagram</TextInsta>
         <button>
-          <img src={LogoInsta} alt="Logo do Instagram" />
+          <BsStars />
+          <a href="https://www.instagram.com/elegance.bijouxx?igsh=b2U3MDdpcmsyYno0">
+            Instagram
+          </a>
+          <BsStars />
         </button>
       </LiBtns>
     </UlBtns>

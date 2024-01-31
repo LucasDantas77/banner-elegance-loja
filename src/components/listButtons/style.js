@@ -4,7 +4,7 @@ export const UlBtns = styled.ul`
   width: 100%;
   height: 100%;
   display: flex;
-  gap: 20px;
+  gap: 37px;
   text-align: center;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,6 @@ export const UlBtns = styled.ul`
     line-height: 30px;
     color: #e4cdcb;
     -webkit-text-stroke: 1px #000;
-    
   }
 `;
 
@@ -29,32 +28,40 @@ export const LiBtns = styled.li`
   flex-direction: column;
   text-align: center;
   align-items: center;
-  gap: 15px;
   width: 100%;
 
   button {
-    width: 80%;
+    width: 70%;
     max-width: 400px;
     border: none;
-    background-color: #e4cccb;
-    border-radius: 7px;
-    height: 60%;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    &:hover {
+      background-color: #000;
+      color: #fff;
 
-    img {
-      width: 80px;
-      height: 60px;
+      a{
+        color: #fff;
+      }
+    }
+
+    a {
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-decoration: none;
+      color: #000;
+      width: 200px;
+      padding: 10px;
+    }
+
+    @media (min-width: 768px) {
+      height: 50px;
     }
   }
-`;
-
-export const TextPinterest = styled.p`
-  color: red;
-`;
-
-export const TextWhats = styled.p`
-  color: green;
-`;
-
-export const TextInsta = styled.p`
-  color: purple;
 `;

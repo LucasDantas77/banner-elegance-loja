@@ -6,6 +6,14 @@ export const MainPage = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(to right, #b76e79, #e4cccb);
+  background-image: linear-gradient(to bottom,  #dddddd, #333333);
+
+  img {
+    width: 500px;
+    height: 290px;
+    @media (min-width: 768px) {
+      width: 600px;
+      height: 315px;
+    }
+  }
 `;
